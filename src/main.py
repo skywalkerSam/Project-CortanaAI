@@ -16,7 +16,7 @@ import webbrowser as wb
 if __name__ == '__main__':
     try:
         introduction()
-        greeting('Starboy') # Change the name of the user here
+        greeting('Starboy')  # Change the name of the user here
         textto_speech("I'm here...")
         text = speechto_text().lower()
 
@@ -37,10 +37,6 @@ if __name__ == '__main__':
                 print("Opening Explorer...")
                 textto_speech("Opening Explorer...")
                 break
-
-
-            
-
 
             elif 'open youtube' in text:
                 wb.open('https://www.youtube.com/')
