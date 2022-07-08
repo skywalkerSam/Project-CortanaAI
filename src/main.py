@@ -38,6 +38,10 @@ if __name__ == '__main__':
                 textto_speech("Opening Explorer...")
                 break
 
+
+            
+
+
             elif 'open youtube' in text:
                 wb.open('https://www.youtube.com/')
                 print("Opening Youtube...")
